@@ -1,0 +1,29 @@
+.gnome-details ul {
+  margin: 20px auto;
+  padding: 0;
+}
+
+.gnome-details ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.gnome-details ul li span {
+  display: inline-block; 
+  width: 140px;
+}
+
+.gnome-details .header {
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.gnome-details .header :nth-child(1) {
+  margin-right: 20px;
+}
+
+.gnome-details .info {
+  color:#333;  
+  font-size: calc(1px + 2vmin);
+}

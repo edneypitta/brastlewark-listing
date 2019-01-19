@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GnomeDetails renders without crashing 1`] = `
+<div
+  className="gnome-details"
+>
+  <div
+    className="header"
+  >
+    <div>
+      <Avatar
+        alt="Gnome Thumbnail"
+      />
+    </div>
+    <div>
+      gnome 1
+    </div>
+  </div>
+  <div
+    className="info"
+  >
+    <ul>
+      <li>
+        <span>
+          Age: 
+        </span>
+      </li>
+      <li>
+        <span>
+          Weight: 
+        </span>
+      </li>
+      <li>
+        <span>
+          Height: 
+        </span>
+      </li>
+      <li>
+        <span>
+          Hair Color: 
+        </span>
+      </li>
+      <li>
+        <span>
+          Professions: 
+        </span>
+      </li>
+      <li>
+        <span>
+          Friends: 
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

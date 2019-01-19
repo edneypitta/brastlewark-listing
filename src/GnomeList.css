@@ -1,0 +1,22 @@
+ul.gnome-list {
+  width: 50vh;
+  margin: 0 auto;
+}
+
+ul.gnome-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: calc(10px + 2vmin);
+  text-decoration: none;
+}
+
+ul.gnome-list li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+ul.gnome-list li :nth-child(1) {
+  margin-right: 20px;
+}

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GnomeList renders without crashing 1`] = `
+<ul
+  className="gnome-list"
+>
+  <li
+    onClick={[Function]}
+  >
+    <div>
+      <Avatar
+        alt="Gnome Thumbnail"
+      />
+    </div>
+    <div>
+      gnome 1
+    </div>
+  </li>
+  <li
+    onClick={[Function]}
+  >
+    <div>
+      <Avatar
+        alt="Gnome Thumbnail"
+      />
+    </div>
+    <div>
+      gnome 2
+    </div>
+  </li>
+</ul>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders if show is true 1`] = `
+<div
+  className="backdrop"
+>
+  <div
+    className="modal"
+  >
+    <div
+      className="footer"
+    >
+      <button>
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal renders nothing if show is false 1`] = `""`;

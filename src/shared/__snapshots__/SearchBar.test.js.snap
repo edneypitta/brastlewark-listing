@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders without crashing 1`] = `
+<div
+  className="wrapper"
+>
+  <input
+    onChange={[MockFunction]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+</div>
+`;

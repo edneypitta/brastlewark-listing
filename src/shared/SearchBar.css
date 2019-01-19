@@ -1,0 +1,16 @@
+.wrapper {
+  margin-bottom: 20px;
+  height: 10vh;
+}
+
+.wrapper input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  height: 40px;
+  color: #fff;
+  outline: none;
+  padding: 0 10px;
+  font-weight: bold;
+}
