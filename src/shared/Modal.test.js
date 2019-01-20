@@ -12,4 +12,13 @@ describe('Modal', () => {
     const component = shallow(<Modal show={true} />)
     expect(component).toMatchSnapshot()
   })
+
+  it('calls onClose function provided', () => {
+    const onClose = jest.fn()
+    const component = shallow(<Modal show={true} onClose={onClose} />)
+    
+    component.find('button').simulate('click')
+
+    expect(onClose).toHaveBeenCalled()
+  })
 })

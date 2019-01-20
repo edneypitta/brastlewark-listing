@@ -7,4 +7,13 @@ describe('SearchBar', () => {
     const component = shallow(<SearchBar value="" onChange={jest.fn()} />)
     expect(component).toMatchSnapshot()
   })
+
+  it('calls onChange function provided', () => {
+    const onChange = jest.fn()
+    const component = shallow(<SearchBar value="" onChange={onChange} />)
+    
+    component.find('input').simulate('change')
+
+    expect(onChange).toHaveBeenCalled()
+  })
 })
