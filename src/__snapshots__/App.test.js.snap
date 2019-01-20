@@ -40,7 +40,14 @@ exports[`App renders without crashing 1`] = `
       />
     </main>
     <footer>
-      Made with ♥ by Edney Pitta
+      Made with ♥ by
+      <a
+        href="https://github.com/edneypitta/brastlewark-listing"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+         Edney Pitta
+      </a>
     </footer>
   </div>
 </App>

@@ -66,7 +66,11 @@ class App extends Component {
           </Modal>
         </main>
         <footer>
-          Made with ♥ by Edney Pitta
+          Made with ♥ by
+          <a
+            href="https://github.com/edneypitta/brastlewark-listing"
+            target="_blank"
+            rel="noopener noreferrer"> Edney Pitta</a>
         </footer>
       </div>
     )
