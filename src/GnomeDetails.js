@@ -3,31 +3,22 @@ import PropTypes from 'prop-types'
 import './GnomeDetails.css'
 import Avatar from './shared/Avatar'
 
-const GnomeDetails = ({
-  gnome: {
-    thumbnail,
-    name,
-    age,
-    weight,
-    height,
-    hair_color,
-    professions = [],
-    friends = [] } }) =>
+const GnomeDetails = ({ gnome: { professions = [], friends = [], ...gnome } }) =>
   <div className="gnome-details">
     <div className="header">
       <div>
         <Avatar
-          src={thumbnail}
+          src={gnome.thumbnail}
           alt="Gnome Thumbnail" />
       </div>
-      <div>{name}</div>
+      <div>{gnome.name}</div>
     </div>
     <div className="info">
       <ul>
-        <li><span>Age: </span>{age}</li>
-        <li><span>Weight: </span>{weight}</li>
-        <li><span>Height: </span>{height}</li>
-        <li><span>Hair Color: </span>{hair_color}</li>
+        <li><span>Age: </span>{gnome.age}</li>
+        <li><span>Weight: </span>{gnome.weight}</li>
+        <li><span>Height: </span>{gnome.height}</li>
+        <li><span>Hair Color: </span>{gnome.hair_color}</li>
         <li><span>Professions: </span>{professions.join(', ')}</li>
         <li><span>Friends: </span>{friends.join(', ')}</li>
       </ul>
