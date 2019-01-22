@@ -10,4 +10,9 @@ The app is deployed on Heroku. [Click here](https://brastlewark-listing.herokuap
 * Enzyme was used along Jest for testing
 * App automatically deployed to Heroku on each push to master
 
+## Running the application locally
+
+* `npm install` and `npm start` will run the application with live reload
+* `npm test` runs tests
+
 Thanks!
